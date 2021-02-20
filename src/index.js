@@ -4,7 +4,7 @@ import SeasonDisplay from "./SeasonDisplay";
 import Spinner from "./Spinner";
 
 class App extends React.Component {
-  state = { lat: null, errorMessage: "" };
+  state = { lat: null, errorMessage: " error" };
 
   componentDidMount() {
     window.navigator.geolocation.getCurrentPosition(
